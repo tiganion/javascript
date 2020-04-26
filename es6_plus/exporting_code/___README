@@ -1,0 +1,11 @@
+Now this is some JS bs ....
+The new way to import/export examples do not work properly, because technology ... (or is it because I'm using node ? ...)
+
+-> use the new import syntax in .js files
+-> SyntaxError: Cannot use import statement outside a module
+-> found on the web that it needs to end in .mjs (to consider the file as a module)
+-> rename those files and run the examples, => the modules are not found
+-> use this flag ' --experimental-modules ' and it is working
+
+So it feels like I need more sh** installed just to run a simple import into a file example -> NOICE!
+PS: if it doesn't run on the first try, try once again - for me it worked ... :)
