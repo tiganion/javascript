@@ -1,0 +1,12 @@
+run with
+
+a) npm run start   => simply starts up the server 
+b) npm run watch   => starts up the server and watches for any changes and restarts it automatically
+b) npx babel-node .\src\server.js => the above in the end are doing this call
+
+
+There are some packageges:
+* express -> the 'server'
+* babel   -> transpiles code so node can run it (as ES6 syntax is not supported out of the box)
+* bodyparse -> to be able to read body request (for POST)
+* nodemon -> 
