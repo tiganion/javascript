@@ -9,3 +9,7 @@ The new way to import/export examples do not work properly, because technology .
 
 So it feels like I need more sh** installed just to run a simple import into a file example -> NOICE!
 PS: if it doesn't run on the first try, try once again - for me it worked ... :)
+
+
+Update: if you get this bs (while using node to run the examples) -> SyntaxError: Cannot use import statement outside a module
+It means you are running a node version that does not support ES6 syntax out of the box yet, so you must use babel to convert the code to an older version :))

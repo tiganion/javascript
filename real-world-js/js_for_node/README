@@ -1,0 +1,4 @@
+To run this me need to do
+ npx babel-node .\src\index.js 10 10
+
+Because we have used ES6 syntax that is not suppoted out of the box (or at least with my node version)
