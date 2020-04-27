@@ -9,4 +9,8 @@ There are some packageges:
 * express -> the 'server'
 * babel   -> transpiles code so node can run it (as ES6 syntax is not supported out of the box)
 * bodyparse -> to be able to read body request (for POST)
-* nodemon -> 
+* nodemon -> to have the server restarted automatically if there is change in the code
+* eslint  -> checking the code
+   ** npx eslint --init  -> to init eslint
+   ** npx eslint .       -> to scan and analyze the code
+   ** npx eslint . --fix -> to scan and attempt to fix minor issues
